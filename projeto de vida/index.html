@@ -21,3 +21,383 @@
 </body>
 
 </html>
+<button class="botao ativo">Cursos na Alura</button>
+<button class="botao">Criar projetos em Javascript</button>
+<button class="botao">Criar um portfolio</button>
+<button class="botao">Atualizar meu currículo</button>
+<script src="main.js"></script>
+const botoes = document.querySelectorAll(".botao");
+console.log(botoes);
+for (let i = 0; i < botoes.length; i++) {
+    console.log(i);
+  }botoes[i].onclick = function () {};
+  botoes[i].onclick = function () {
+    botoes[i].classList.add("ativo");
+  };
+  for (let i = 0; i < botoes.length; i++) {
+    botoes[i].onclick = function () {
+      botoes[i].classList.add("ativo");
+    };
+  }
+  for (let j = 0; j < botoes.length; j++) {
+    botoes[j].classList.remove("ativo");
+  }
+  const botoes = document.querySelectorAll(".botao");
+
+for (let i = 0; i < botoes.length; i++) {
+  botoes[i].onclick = function () {
+    for (let j = 0; j < botoes.length; j++) {
+      botoes[j].classList.remove("ativo");
+    }
+
+    botoes[i].classList.add("ativo");
+  };
+}
+for ([inicialização]; [condição]; [incremento]) {
+    declaração;
+  }
+  for (var i = 1; i <= 5; i++) {
+    console.log(i);
+  }
+  for (var i = 0; i <= 10; i += 2) {
+    console.log(i);
+  }
+  var frutas = ["Maçã", "Banana", "Laranja", "Pera"];
+for (var i = 0; i < frutas.length; i++) {
+  console.log(frutas[i]);
+}
+let contador = 5;
+contador += 3;
+let contador = 10;
+contador -= 4;
+var numero = 3;
+numero *= 2;
+var numero = 10;
+numero /= 2;
+<div class="abas-textos">
+
+</div>
+<div class="abas-textos">
+    <div class="aba-conteudo">
+        <h3 class="aba-conteudo-titulo-principal">Estudar 4 cursos na Alura</h3>
+        <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+    </div>
+</div>
+<div class="aba-conteudo">
+    <h3 class="aba-conteudo-titulo-principal">Criar 5 projetos em JavaScript</h3>
+    <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+</div>
+<div class="aba-conteudo">
+    <h3 class="aba-conteudo-titulo-principal">Atualizar meu currículo com os certificados da Alura</h3>
+    <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+</div>
+<div class="conteudo">
+    <div class="botoes">
+        <button class="botao ativo">Cursos na Alura</button>
+        <button class="botao">Criar projetos em JavaScript</button>
+        <button class="botao">Criar um portfolio</button>
+        <button class="botao">Atualizar meu currículo</button>
+    </div>
+    <div class="abas-textos">
+        <div class="aba-conteudo">
+            <h3 class="aba-conteudo-titulo-principal">Estudar 4 cursos na Alura</h3>
+            <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+        </div>
+        <div class="aba-conteudo">
+            <h3 class="aba-conteudo-titulo-principal">Criar 5 projetos em JavaScript</h3>
+            <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+        </div>
+        <div class="aba-conteudo">
+            <h3 class="aba-conteudo-titulo-principal">Criar um portfolio com os meus 3 melhores projetos</h3>
+            <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+        </div>
+        <div class="aba-conteudo">
+            <h3 class="aba-conteudo-titulo-principal">Atualizar meu currículo com os certificados da Alura</h3>
+            <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+        </div>
+    </div>
+</div>
+<button class="botao ativo">Cursos na Alura</button>
+<div class="aba-conteudo ativo"></div>
+<div class="abas-textos"></div>
+<div class="abas-textos">
+    <div class="aba-conteudo"></div>
+  </div>
+  <div class="abas-textos">
+    <div class="aba-conteudo">
+      <h3 class="aba-conteudo-titulo-principal">Estudar 4 cursos na Alura</h3>
+      <h4 class="aba-conteudo-titulo-secundario">
+        Tempo para completar o objetivo
+      </h4>
+    </div>
+  </div>
+  <div class="abas-textos">
+    <div class="aba-conteudo">
+      <h3 class="aba-conteudo-titulo-principal">Estudar 4 cursos na Alura</h3>
+      <h4 class="aba-conteudo-titulo-secundario">
+        Tempo para completar o objetivo
+      </h4>
+    </div>
+    <div class="aba-conteudo">
+      <h3 class="aba-conteudo-titulo-principal">
+        Criar 5 projetos em Javascript
+      </h3>
+      <h4 class="aba-conteudo-titulo-secundario">
+        Tempo para completar o objetivo
+      </h4>
+    </div>
+    <div class="aba-conteudo">
+      <h3 class="aba-conteudo-titulo-principal">
+        Criar um portfolio com os meus 3 melhores projetos
+      </h3>
+      <h4 class="aba-conteudo-titulo-secundario">
+        Tempo para completar o objetivo
+      </h4>
+    </div>
+    <div class="aba-conteudo">
+      <h3 class="aba-conteudo-titulo-principal">
+        Atualizar meu curriculo com os certificados da Alura
+      </h3>
+      <h4 class="aba-conteudo-titulo-secundario">
+        Tempo para completar o objetivo
+      </h4>
+    </div>
+  </div>
+  <div class="conteudo">
+    <div class="botoes">
+      <button class="botao ativo">Cursos na Alura</button>
+      <button class="botao">Criar projetos em Javascript</button>
+      <button class="botao">Criar um portfolio</button>
+      <button class="botao">Atualizar meu currículo</button>
+    </div>
+    <div class="abas-textos">
+      <div class="aba-conteudo">
+        <h3 class="aba-conteudo-titulo-principal">Estudar 4 cursos na Alura</h3>
+        <h4 class="aba-conteudo-titulo-secundario">
+          Tempo para completar o objetivo
+        </h4>
+      </div>
+      <div class="aba-conteudo">
+        <h3 class="aba-conteudo-titulo-principal">
+          Criar 5 projetos em Javascript
+        </h3>
+        <h4 class="aba-conteudo-titulo-secundario">
+          Tempo para completar o objetivo
+        </h4>
+      </div>
+      <div class="aba-conteudo">
+        <h3 class="aba-conteudo-titulo-principal">
+          Criar um portfolio com os meus 3 melhores projetos
+        </h3>
+        <h4 class="aba-conteudo-titulo-secundario">
+          Tempo para completar o objetivo
+        </h4>
+      </div>
+      <div class="aba-conteudo">
+        <h3 class="aba-conteudo-titulo-principal">
+          Atualizar meu curriculo com os certificados da Alura
+        </h3>
+        <h4 class="aba-conteudo-titulo-secundario">
+          Tempo para completar o objetivo
+        </h4>
+      </div>
+    </div>
+  </div>
+  for (var i = 1; i <= 5; i++) {
+    console.log(i);
+  }
+  for (var i = 0; i <= 10; i += 2) {
+    console.log(i);
+  }
+  var frutas = ["Maçã", "Banana", "Laranja", "Pera"];
+for (var i = 0; i < frutas.length; i++) {
+  console.log(frutas[i]);
+}
+let contador = 5;
+contador += 3;
+let contador = 10;
+contador -= 4;
+var numero = 3;
+numero *= 2;
+var numero = 10;
+numero /= 2; 
+const botoes = document.querySelectorAll(".botao");
+const textos = document.querySelectorAll(".aba-conteudo");
+
+//Código omitido
+const botoes = document.querySelectorAll(".botao");
+const textos = document.querySelectorAll(".aba-conteudo");
+
+for (let i = 0; i < botoes.length; i++) {
+    botoes[i].onclick = function () {
+
+        for (let j = 0; j < botoes.length; j++) {
+            botoes[j].classList.remove("ativo");
+            textos[j].classList.remove("ativo");
+        }
+
+        botoes[i].classList.add("ativo");
+        textos[i].classList.add("ativo");
+    }
+}
+//Código omitido
+
+</div>
+            <div class="abas-textos">
+                    <div class="aba-conteudo ativo">
+                            <h3 class="aba-conteudo-titulo-principal">Estudar 4 cursos na Alura</h3>
+                            <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+                            <div class="contador"></div>
+
+//Código omitido
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus objetivos do ano</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="conteudo-principal">
+        <h2 class="titulo-principal">Meus Objetivos do ano<span>_</span></h2>
+        <div class="conteudo">
+        <div class="botoes">
+            <button class="botao ativo">Cursos na Alura</button>
+            <button class="botao">Criar projetos em Javascript</button>
+            <button class="botao">Criar um portfolio</button>
+            <button class="botao">Atualizar meu currículo</button>
+        </div>
+        <div class="abas-textos">
+            <div class="aba-conteudo ativo">
+                <h3 class="aba-conteudo-titulo-principal">Estudar 4 cursos na Alura</h3>
+                <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+                <div class="contador"></div>
+            </div>
+            <div class="aba-conteudo">
+                <h3 class="aba-conteudo-titulo-principal">Criar 5 projetos em Javascript</h3>
+                <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+                <div class="contador"></div>
+            </div>
+            <div class="aba-conteudo">
+                <h3 class="aba-conteudo-titulo-principal">Criar um portfolio com os meus 3 melhores projetos</h3>
+                <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+                <div class="contador"></div>
+            </div>
+            <div class="aba-conteudo">
+                <h3 class="aba-conteudo-titulo-principal">Atualizar meu curriculo com os certificados da Alura</h3>
+                <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+                <div class="contador"></div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
+//Código omitido
+
+const contadores = document.querySelectorAll(".contador");
+
+//Código omitido
+//Código omitido
+
+const contadores = document.querySelectorAll(".contador");
+
+contadores[0].textContent = "Contagem regressiva";
+//Código omitido
+
+const contadores = document.querySelectorAll(".contador"); 
+const tempoObjetivo1 = new Date("2024-10-05"); 
+
+contadores[0].textContent = tempo0bjetivo1; 
+const botoes = document.querySelectorAll(".botao");
+const textos = document.querySelectorAll(".aba-conteudo");
+
+for (let i = 0; i < botoes.length; i++) {
+    botoes[i].onclick = function () {
+
+        for (let j = 0; j < botoes.length; j++) {
+            botoes[j].classList.remove("ativo");
+            textos[j].classList.remove("ativo");
+        }
+
+        botoes[i].classList.add("ativo");
+        textos[i].classList.add("ativo");
+    }
+}
+
+const contadores = document.querySelectorAll(".contador");
+const tempoObjetivo1 = new Date("2023-10-05T00:00:00");
+let tempoAtual = new Date();
+const botoes = document.querySelectorAll(".botao");
+const textos = document.querySelectorAll(".aba-conteudo");
+botoes[i].classList.add("ativo");
+textos[i].classList.add("ativo");
+botoes[j].classList.remove("ativo");
+textos[j].classList.remove("ativo");
+for (let i = 0; i < botoes.length; i++) {
+    botoes[i].onclick = function () {
+      for (let j = 0; j < botoes.length; j++) {
+        botoes[j].classList.remove("ativo");
+        textos[j].classList.remove("ativo");
+      }
+  
+      botoes[i].classList.add("ativo");
+      textos[i].classList.add("ativo");
+    };
+  }
+  <div class="aba-conteudo ativo">
+    <h3 class="aba-conteudo-titulo-principal">Estudar 4 cursos na Alura</h3>
+    <h4 class="aba-conteudo-titulo-secundario">
+      Tempo para completar o objetivo
+    </h4>
+    <div class="contador"></div>
+  </div>
+  <div class="aba-conteudo ativo">
+    <h3 class="aba-conteudo-titulo-principal">Estudar 4 cursos na Alura</h3>
+    <h4 class="aba-conteudo-titulo-secundario">
+      Tempo para completar o objetivo
+    </h4>
+    <div class="contador"></div>
+  </div>
+  <div class="aba-conteudo">
+    <h3 class="aba-conteudo-titulo-principal">Criar 5 projetos em Javascript</h3>
+    <h4 class="aba-conteudo-titulo-secundario">
+      Tempo para completar o objetivo
+    </h4>
+    <div class="contador"></div>
+  </div>
+  <div class="aba-conteudo">
+    <h3 class="aba-conteudo-titulo-principal">
+      Criar um portfolio com os meus 3 melhores projetos
+    </h3>
+    <h4 class="aba-conteudo-titulo-secundario">
+      Tempo para completar o objetivo
+    </h4>
+    <div class="contador"></div>
+  </div>
+  <div class="aba-conteudo">
+    <h3 class="aba-conteudo-titulo-principal">
+      Atualizar meu currículo com os certificados da Alura
+    </h3>
+    <h4 class="aba-conteudo-titulo-secundario">
+      Tempo para completar o objetivo
+    </h4>
+    <div class="contador"></div>
+  </div>
+  const contadores = document.querySelectorAll(".contador");
+  contadores[0].textContent = "Contagem regressiva";
+  const tempoObjetivo1 = new Date("2024-10-05");
+  const tempoObjetivo1 = new Date("2024-10-05");
+
+  contadores[0].textContent = tempoObjetivo1;
+  const tempoObjetivo1 = new Date("2023-10-05T00:00:00");
+  let tempoAtual = new Date();
+  contadores[0].textContent = tempoObjetivo1 - tempoAtual;
+  const contadores = document.querySelectorAll(".contador");
+const tempoObjetivo1 = new Date("2023-10-05T00:00:00");
+let tempoAtual = new Date();
+
+contadores[0].textContent = tempoObjetivo1 - tempoAtual;
+<p>       Vamos verificar o <strong>retorno!</strong> </p>
